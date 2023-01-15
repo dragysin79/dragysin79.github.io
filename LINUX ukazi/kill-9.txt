@@ -1,0 +1,8 @@
+greš v cpanel svetdekorja
+potem pa spodaj pod Advance izbereš Terminal
+
+vpišeš ukaz:
+ps aux|grep php
+
+
+in potem narediš kill -9 + številka procesa

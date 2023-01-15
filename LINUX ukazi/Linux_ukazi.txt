@@ -1,0 +1,44 @@
+find -name ime_fotke.jpg
+
+locate ime_fotke.jpg
+
+
+find -name F3854599.jpg
+
+locate F3854664.jpg
+
+
+F3854664
+
+
+find -name 070-03-120.jpg
+070-03-120
+
+find . -name "FILE-TO-FIND" -exec rm -rf {} \;
+
+-----
+List files and output the result to a file
+ls > output.txt
+cat output.txt
+
+
+najdi in premesti v mapo
+
+
+find path_A -name '*AAA*' -exec mv -t path_B {} +
+
+
+DD119685
+
+
+
+find . -name 'DD119685.jpg' -exec mv -t /dest/ {} +
+
+C:\Users\LENOVO\Documents\SLIKE TAPETE\ASCreation\Fototapete-digital\ORIGINAL\dest
+
+C:\Users\LENOVO\Documents\SLIKE TAPETE\ASCreation\Fototapete-digital\ORIGINAL\dest
+
+
+find . -name 'DD119689.jpg' -exec mv -t /c/Users/LENOVO/Documents/SLIKE_TAPETE/ASCreation/Fototapete-digital/ORIGINAL/dest/ {} +
+
+find . -name 'DD119685.jpg -exec mv -t /c/Users/LENOVO/Documents/SLIKE_TAPETE/ASCreation/Fototapete-digital/ORIGINAL/dest/ {} +
