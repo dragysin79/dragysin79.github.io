@@ -1,0 +1,26 @@
+truncate -s0 /var/www/site.com/var/log/exception.log
+
+
+/nova.svetdekorja.si/var/log/debug.log
+
+truncate -s0 /nova.svetdekorja.si/var/log/debug.log
+
+
+
+truncate -s0 /home/svetdeko/nova.svetdekorja.si/var/log/debug.log
+
+/home/svetdeko/nova.svetdekorja.si/var/log
+
+0 0 * * 0
+
+truncate -s0 /home/svetdeko/nova.svetdekorja.si/var/log/debug.log
+
+/public_html/var/log/system.log
+
+/public_html/var/log
+
+/home/svetdeko/public_html/var/log
+
+/home/svetdeko/public_html/var/log/system.log
+
+truncate -s0 /home/svetdeko/public_html/var/log/system.log
